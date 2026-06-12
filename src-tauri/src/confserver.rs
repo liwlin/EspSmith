@@ -23,6 +23,7 @@ use std::process::{Child, ChildStdin, ChildStdout, Command, Stdio};
 use std::os::windows::process::CommandExt;
 
 use crate::idf;
+use crate::idf::NoWindowExt;
 use tracing::{info, warn};
 
 pub struct ConfserverProcess {
@@ -153,7 +154,7 @@ impl ConfserverProcess {
                 .current_dir(project_path)
                 .stdout(Stdio::piped())
                 .stderr(Stdio::piped())
-                .creation_flags(0x08000000)
+                .no_window()
                 .spawn()
                 .and_then(|c| c.wait_with_output())
                 .map_err(|e| format!("Failed to run prepare_kconfig_files.py: {}", e))?;
