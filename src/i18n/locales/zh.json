@@ -83,8 +83,8 @@
     "delete": "删除",
     "open": "打开",
     "copyPath": "复制路径",
-    "deleteConfirm": "确定要删除 "{{name}}" 吗？",
-    "deleteFolderConfirm": "确定要删除文件夹 "{{name}}" 及其所有内容吗？",
+    "deleteConfirm": "确定要删除 \"{{name}}\" 吗？",
+    "deleteFolderConfirm": "确定要删除文件夹 \"{{name}}\" 及其所有内容吗？",
     "search": "搜索文件..."
   },
   "chat": {
@@ -115,7 +115,7 @@
   },
   "editor": {
     "unsavedChanges": "未保存的更改",
-    "confirmClose": "文件 "{{name}}" 有未保存的更改，确定要关闭吗？"
+    "confirmClose": "文件 \"{{name}}\" 有未保存的更改，确定要关闭吗？"
   },
   "settings": {
     "title": "设置",

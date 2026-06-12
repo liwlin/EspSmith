@@ -83,8 +83,8 @@
     "delete": "Delete",
     "open": "Open",
     "copyPath": "Copy Path",
-    "deleteConfirm": "Are you sure you want to delete "{{name}}"?",
-    "deleteFolderConfirm": "Are you sure you want to delete folder "{{name}}" and all its contents?",
+    "deleteConfirm": "Are you sure you want to delete \"{{name}}\"?",
+    "deleteFolderConfirm": "Are you sure you want to delete folder \"{{name}}\" and all its contents?",
     "search": "Search files..."
   },
   "chat": {
@@ -115,7 +115,7 @@
   },
   "editor": {
     "unsavedChanges": "Unsaved changes",
-    "confirmClose": ""{{name}}" has unsaved changes. Close anyway?"
+    "confirmClose": "\"{{name}}\" has unsaved changes. Close anyway?"
   },
   "settings": {
     "title": "Settings",
